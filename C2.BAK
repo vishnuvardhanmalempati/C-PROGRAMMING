@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	int a;
+	char b;
+	double c;
+	float d;
+	long double e;
+	long int g;
+	clrscr();
+	printf("Enter Character value:");
+	scanf("%c",&b);
+	printf("Enter Integer value");
+	scanf("%d",&a);
+	printf("Enter Double value:");
+	scanf("%lf",&c);
+	printf("Enter Float value");
+	scanf("%f",&d);
+	printf("Enter Long Double value:");
+	scanf("%Lf",&e);
+	printf("Enter Long Interger value:");
+	scanf("%ld",&g);
+	printf("\nInteger value:%d",a);
+	printf("\nCharacter:%c",b);
+	printf("\nDouble value:%lf",c);
+	printf("\nFloat value:%f",d);
+	printf("\nLong Double value:%Lf",e);
+	printf("\nLong Integer value:%ld",g);
+	getch();
+}
