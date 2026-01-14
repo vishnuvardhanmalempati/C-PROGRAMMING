@@ -9,8 +9,9 @@ void main(){
 		printf("\nVISHNU");
 	}
 	else{
-		printf("\nVISHNU");
+		printf("\nVARDHAN");
 	}
 	}
 	getch();
 }
+
