@@ -5,7 +5,8 @@ void main(){
 	clrscr();
 	printf("Enter Value to find Nearest value to 10:");
 	scanf("%d",&n);
-	a=((n/10)*10);
+	a=(((n+5)/10)*10);
 	printf("\n%d",a);
 	getch();
 }
+
