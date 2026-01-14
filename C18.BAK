@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main(){
+	int a,b,c,d,e,f;
+	clrscr();
+	printf("Enter 1st Point:");
+	scanf("%d%d",&a,&b);
+	printf("Enter 2nd Point:");
+	scanf("%d%d",&c,&d);
+	printf("P1:(%d,%d)",a,b);
+	printf("P2:(%d,%d)",c,d);
+	e=abs(a-c);
+	f=abs(b-d);
+	printf("Difference between Two Points are:(%d,%d)",e,f);
+	getch();
+}
