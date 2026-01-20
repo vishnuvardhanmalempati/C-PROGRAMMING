@@ -26,4 +26,5 @@ void main(){
 			break;
 	}
 		getch();
+
 }
